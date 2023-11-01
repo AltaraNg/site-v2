@@ -56,59 +56,55 @@ function Plan({ name, price, description, href, features, featured = false }) {
 
 export function Pricing() {
     return (
-        <section id="pricing" aria-label="Pricing" className="bg-slate-900 py-20 sm:py-32">
+        <section id="offers" aria-label="Offers" className="bg-slate-900 py-20 sm:py-32">
             <Container>
                 <div className="md:text-center">
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
                         <span className="relative whitespace-nowrap">
                             <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-                            <span className="relative">Simple pricing,</span>
+                            <span className="relative">Loan</span>
                         </span>{" "}
-                        for everyone.
+                        Options.
                     </h2>
-                    <p className="mt-4 text-lg text-slate-400">It doesn’t matter what size your business is, our software won’t work well for you.</p>
+                    <p className="mt-4 text-lg text-slate-400">
+                        At Altara, we offer a range of flexible loan options designed to meet your unique financial needs.
+                    </p>
                 </div>
                 <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
                     <Plan
-                        name="Starter"
-                        price="$9"
+                        name="Starter Loan"
+                        price="₦70,000"
                         description="Good for anyone who is self-employed and just getting started."
-                        href="/register"
+                        href="/app-download"
                         features={[
-                            "Send 10 quotes and invoices",
-                            "Connect up to 2 bank accounts",
-                            "Track up to 15 expenses per month",
-                            "Manual payroll support",
-                            "Export up to 3 reports",
+                            "Competitive rates starting from 2.5%",
+                            "Flexible repayment terms from 6months",
+                            "Proof of income, identification documents, credit history review",
                         ]}
                     />
                     <Plan
                         featured
-                        name="Small business"
-                        price="$15"
-                        description="Perfect for small / medium sized businesses."
-                        href="/register"
+                        name="Renewal Loan"
+                        price="₦120,000"
+                        description="Good for anyone who is self-employed and just getting started."
+                        href="/app-download"
                         features={[
-                            "Send 25 quotes and invoices",
-                            "Connect up to 5 bank accounts",
-                            "Track up to 50 expenses per month",
-                            "Automated payroll support",
-                            "Export up to 12 reports",
-                            "Bulk reconcile transactions",
-                            "Track in multiple currencies",
+                            "Competitive rates starting from 2.5%",
+                            "Flexible repayment terms from 6months",
+                            "Proof of income, identification documents, credit history review",
+                            "Provision 2 Guarantors",
+                            "Physical verification",
                         ]}
                     />
                     <Plan
-                        name="Enterprise"
-                        price="$39"
-                        description="For even the biggest enterprise companies."
-                        href="/register"
+                        name="Small business"
+                        price="₦500,000"
+                        description="Perfect for small / medium sized businesses."
+                        href="/app-download"
                         features={[
-                            "Send unlimited quotes and invoices",
-                            "Connect up to 15 bank accounts",
-                            "Track up to 200 expenses per month",
-                            "Automated payroll support",
-                            "Export up to 25 reports, including TPS",
+                            "Tailored rates based on business profile and creditworthiness",
+                            "Customizable repayment schedules to align with your cash flow",
+                            "Business registration documents, financial statements, business plan (for startups)",
                         ]}
                     />
                 </div>

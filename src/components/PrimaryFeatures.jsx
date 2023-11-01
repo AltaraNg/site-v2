@@ -7,31 +7,31 @@ import clsx from "clsx";
 
 import { Container } from "@/components/Container";
 import backgroundImage from "@/images/background-features.jpg";
-import screenshotExpenses from "@/images/screenshots/expenses.png";
-import screenshotPayroll from "@/images/screenshots/payroll.png";
-import screenshotReporting from "@/images/screenshots/reporting.png";
-import screenshotVatReturns from "@/images/screenshots/vat-returns.png";
+import L1 from "@/images/L1.jpg";
+import L2 from "@/images/L2.jpg";
+import L3 from "@/images/L3.jpg";
+import L4 from "@/images/L4.jpg";
 
 const features = [
     {
-        title: "Payroll",
-        description: "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-        image: screenshotPayroll,
+        title: "Diverse Audience, Personalized Solutions",
+        description: "From the formal sector to the informal, Altara caters to everyone, ensuring financial inclusivity for all.",
+        image: L1,
     },
     {
-        title: "Claim expenses",
-        description: "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-        image: screenshotExpenses,
+        title: "Transparent and Competitive Rates",
+        description: "We believe in fairness. Our rates are clear and competitive, designed to empower rather than burden.",
+        image: L3,
     },
     {
-        title: "VAT handling",
-        description: "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-        image: screenshotVatReturns,
+        title: "Unparalleled Support",
+        description: "Our team is here to guide you through every step of the process, ensuring you have the information and resources you need.",
+        image: L4,
     },
     {
-        title: "Reporting",
-        description: "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.",
-        image: screenshotReporting,
+        title: "Trust and Security",
+        description: "Your financial security is our top priority. Altara employs the latest technology to safeguard your information.",
+        image: L2,
     },
 ];
 
@@ -65,9 +65,7 @@ export function PrimaryFeatures() {
             />
             <Container className="relative">
                 <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-                    <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-                        Everything you need to run your books.
-                    </h2>
+                    <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">Why Choose Altara?</h2>
                     <p className="mt-6 text-lg tracking-tight text-blue-100">
                         Well everything you need if you aren’t that picky about minor details like tax compliance.
                     </p>
@@ -123,14 +121,8 @@ export function PrimaryFeatures() {
                                             <div className="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
                                             <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">{feature.description}</p>
                                         </div>
-                                        <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                                            <Image
-                                                className="w-full"
-                                                src={feature.image}
-                                                alt=""
-                                                priority
-                                                sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
-                                            />
+                                        <div className="mt-10 overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 min-w-[40rem] min-h-[40rem] relative">
+                                            <Image className="w-full" src={feature.image} alt="" priority fill />
                                         </div>
                                     </Tab.Panel>
                                 ))}
