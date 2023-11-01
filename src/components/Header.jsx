@@ -63,7 +63,10 @@ function MobileNavigation() {
                     >
                         <MobileNavLink href="#features">Features</MobileNavLink>
                         <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-                        <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+                        <MobileNavLink href="#offers">Offers</MobileNavLink>
+                        <MobileNavLink href="/impact">Impacts</MobileNavLink>
+                        <MobileNavLink href="/about">About Us</MobileNavLink>
+                        <MobileNavLink href="/contact">Contact Us</MobileNavLink>
                         <hr className="m-2 border-slate-300/40" />
                         <MobileNavLink href="/login">Sign in</MobileNavLink>
                     </Popover.Panel>
@@ -79,21 +82,25 @@ export function Header() {
             <Container>
                 <nav className="relative z-50 flex justify-between">
                     <div className="flex items-center md:gap-x-12">
-                        <Link href="/#" aria-label="Home">
-                            <Logo className="h-10 w-auto" />
+                        <Link href="/#" aria-label="Home" className="flex font-display items-center text-2xl gap-2">
+                            <Logo className="" type="dark" />
+                            Altara
                         </Link>
-                        <div className="hidden md:flex md:gap-x-6">
+                        <div className="hidden md:flex md:gap-x-6 font-medium">
                             <NavLink href="/#features">Features</NavLink>
                             <NavLink href="/#testimonials">Testimonials</NavLink>
-                            <NavLink href="/#pricing">Pricing</NavLink>
+                            <NavLink href="/#offers">Offers</NavLink>
+                            <NavLink href="/impact">Impacts</NavLink>
+                            <NavLink href="/about">About Us</NavLink>
+                            <NavLink href="/contact">Contact Us</NavLink>
                         </div>
                     </div>
                     <div className="flex items-center gap-x-5 md:gap-x-8">
-                        <div className="hidden md:block">
+                        {/* <div className="hidden md:block">
                             <NavLink href="/login">Sign in</NavLink>
-                        </div>
-                        <Button href="/register" color="blue">
-                            <span>
+                        </div> */}
+                        <Button href="/app-download" color="blue">
+                            <span className="font-display">
                                 Get started <span className="hidden lg:inline">today</span>
                             </span>
                         </Button>

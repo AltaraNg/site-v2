@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.strip {
+    @apply border-none px-0;
+}
+
+.strip:focus {
+    @apply border-none outline-none outline-0 ring-0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+select {
+    appearance: none; /* Removes the default appearance */
+    -webkit-appearance: none; /* For older versions of Safari */
+    -moz-appearance: none; /* For Firefox */
+    background-image: none; /* Removes the default arrow */
+}

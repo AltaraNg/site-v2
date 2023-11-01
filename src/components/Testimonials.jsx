@@ -10,19 +10,20 @@ import avatarImage5 from "@/images/avatars/avatar-5.png";
 const testimonials = [
     [
         {
-            content: "TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.",
+            content:
+                "Altara came through for me when I needed it most. Their loan process was seamless, and the terms were fair. I'm now on the path to achieving my financial goals thanks to Altara's support!",
             author: {
                 name: "Sheryl Berge",
-                role: "CEO at Lynch LLC",
+                location: "Challenge, Ibadan",
                 image: avatarImage1,
             },
         },
         {
             content:
-                "I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.",
+                "As a small business owner, Altara's Buy Now Pay Later option has been a game-changer. My customers love the flexibility, and my sales have seen a significant boost. It's a win-win!",
             author: {
                 name: "Amy Hahn",
-                role: "Director at Velocity Industries",
+                location: "Apata, Ibadan",
                 image: avatarImage4,
             },
         },
@@ -30,19 +31,19 @@ const testimonials = [
     [
         {
             content:
-                "The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.",
+                "Altara has been my go-to for financial solutions. Their loans helped me expand my business, and their Buy Now Pay Later feature has elevated my customer experience. I couldn't be happier with the results.",
             author: {
                 name: "Leland Kiehn",
-                role: "Founder of Kiehn and Sons",
+                location: "Taiwo, Ilorin",
                 image: avatarImage5,
             },
         },
         {
             content:
-                "There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.",
+                "What sets Altara apart is their transparency. No hidden fees or surprises. They explained everything clearly, and I felt confident in their services. I highly",
             author: {
                 name: "Erin Powlowski",
-                role: "COO at Armstrong Inc",
+                location: "Challenge, Ibadan",
                 image: avatarImage2,
             },
         },
@@ -50,19 +51,19 @@ const testimonials = [
     [
         {
             content:
-                "I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.",
+                "The Altara team treated me like family. They took the time to understand my needs and provided a loan solution that fit perfectly. I felt supported every step of the way.",
             author: {
                 name: "Peter Renolds",
-                role: "Founder of West Inc",
+                location: "Dugbe, Ibadan",
                 image: avatarImage3,
             },
         },
         {
             content:
-                "This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.",
+                "You guys are one of the best thing that has happened to me, you practically help set up my home... The ease of deducting the money from my account as against coming to the showroom all the time",
             author: {
                 name: "Amy Hahn",
-                role: "Director at Velocity Industries",
+                location: "Abiola Way, Abeokuta",
                 image: avatarImage4,
             },
         },
@@ -82,11 +83,8 @@ export function Testimonials() {
         <section id="testimonials" aria-label="What our customers are saying" className="bg-slate-50 py-20 sm:py-32">
             <Container>
                 <div className="mx-auto max-w-2xl md:text-center">
-                    <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">Loved by businesses worldwide.</h2>
-                    <p className="mt-4 text-lg tracking-tight text-slate-700">
-                        Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of
-                        mission-critical features.
-                    </p>
+                    <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">Testimonials</h2>
+                    <p className="mt-4 text-lg tracking-tight text-slate-700">See What Our Customers Have to Say About Altara</p>
                 </div>
                 <ul role="list" className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
                     {testimonials.map((column, columnIndex) => (
@@ -102,7 +100,7 @@ export function Testimonials() {
                                             <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                                 <div>
                                                     <div className="font-display text-base text-slate-900">{testimonial.author.name}</div>
-                                                    <div className="mt-1 text-sm text-slate-500">{testimonial.author.role}</div>
+                                                    <div className="text-sm text-slate-500">{testimonial.author.location}</div>
                                                 </div>
                                                 <div className="overflow-hidden rounded-full bg-slate-50">
                                                     <Image

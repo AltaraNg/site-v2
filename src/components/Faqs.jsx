@@ -6,44 +6,32 @@ import backgroundImage from "@/images/background-faqs.jpg";
 const faqs = [
     [
         {
-            question: "Does TaxPal handle VAT?",
-            answer: "Well no, but if you move your company offshore you can probably ignore it.",
+            question: "How do I go about getting a product?",
+            answer: "You can fill in the enquiry form online and an agent will reach out to you. Next steps will involve getting your KYC documents, registering on our system speedy verification and you can pick up the product at our closest branch near you.",
         },
         {
-            question: "Can I pay for my subscription via purchase order?",
-            answer: "Absolutely, we are happy to take your money in all forms.",
-        },
-        {
-            question: "How do I apply for a job at TaxPal?",
-            answer: "We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.",
+            question: "What type of customers do Altara serve?",
+            answer: "We serve customers who are salaried and non salaried, above 18, male and female who live in any of our operating communities",
         },
     ],
     [
         {
-            question: "What was that testimonial about tax fraud all about?",
-            answer: "TaxPal is just a software application, ultimately your books are your responsibility.",
+            question: "Where is Altara Located?",
+            answer: "We currently have several branches across Oyo and Kwara including major cities such as Ibadan, Ogbomosho & Ilorin. We are growing quickly and expanding to more communities near you.",
         },
         {
-            question: "TaxPal sounds horrible but why do I still feel compelled to purchase?",
-            answer: "This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.",
-        },
-        {
-            question: "I found other companies called TaxPal, are you sure you can use this name?",
-            answer: "Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.",
+            question: "How long does it take to get approved for a loan?",
+            answer: "The approval process varies depending on the type of loan and the completeness of your application. In many cases, approvals can be provided within 24-48 hours.",
         },
     ],
     [
         {
-            question: "How do you generate reports?",
-            answer: "You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.",
+            question: "Are there restrictions on what I can buy or the amount I can loan?",
+            answer: "We have calculators and approval criteria tailored to suit individual's earning capacity.",
         },
         {
-            question: "Can we expect more inventory features?",
-            answer: "In life it’s really better to never expect anything at all.",
-        },
-        {
-            question: "I lost my password, how do I get into my account?",
-            answer: "Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.",
+            question: "Can I repay my loan early without any penalties?",
+            answer: "Yes, you can repay your loan early with Altara without incurring any penalties. We believe in providing you with flexibility and control over your financial commitments.",
         },
     ],
 ];

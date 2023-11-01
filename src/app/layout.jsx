@@ -5,10 +5,11 @@ import "@/styles/tailwind.css";
 
 export const metadata = {
     title: {
-        template: "%s - TaxPal",
-        default: "TaxPal - Accounting made simple for small businesses",
+        template: "%s - Altara",
+        default: "Altara - Unlock Financial Freedom - Loan",
     },
-    description: "Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.",
+    description:
+        "Altara: Empowering Financial Futures. Explore our diverse range of loans and flexible Buy Now Pay Later options. Serving individuals and businesses in the formal and informal sectors, Altara provides inclusive financial solutions with transparency and integrity.",
 };
 
 const inter = Inter({
