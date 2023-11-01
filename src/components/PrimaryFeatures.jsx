@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 import { Container } from "@/components/Container";
 import backgroundImage from "@/images/background-features.jpg";
-import L1 from "@/images/L1.jpg";
+// import L1 from "@/images/L1.jpg";
 // import L2 from "@/images/L2.jpg";
 // import L3 from "@/images/L3.jpg";
 // import L4 from "@/images/L4.jpg";
@@ -16,22 +16,22 @@ const features = [
     {
         title: "Diverse Audience, Personalized Solutions",
         description: "From the formal sector to the informal, Altara caters to everyone, ensuring financial inclusivity for all.",
-        image: L1,
+        image: "",
     },
     {
         title: "Transparent and Competitive Rates",
         description: "We believe in fairness. Our rates are clear and competitive, designed to empower rather than burden.",
-        image: L1,
+        image: "",
     },
     {
         title: "Unparalleled Support",
         description: "Our team is here to guide you through every step of the process, ensuring you have the information and resources you need.",
-        image: L1,
+        image: "",
     },
     {
         title: "Trust and Security",
         description: "Your financial security is our top priority. Altara employs the latest technology to safeguard your information.",
-        image: L1,
+        image: "",
     },
 ];
 
