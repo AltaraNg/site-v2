@@ -51,24 +51,24 @@ const testimonials = [
         // },
     ],
     [
+        // {
+        //     content:
+        //         "The Altara team treated me like family. They took the time to understand my needs and provided a loan solution that fit perfectly. I felt supported every step of the way.",
+        //     author: {
+        //         name: "Adepoju Sukurat",
+        //         location: "Dugbe, Ibadan",
+        //         image: testimonial3,
+        //     },
+        // },
         {
             content:
-                "The Altara team treated me like family. They took the time to understand my needs and provided a loan solution that fit perfectly. I felt supported every step of the way.",
+                "You guys are one of the best thing that has happened to me, you practically help set up my home... The ease of deducting the money from my account as against coming to the showroom all the time",
             author: {
                 name: "Adepoju Sukurat",
-                location: "Dugbe, Ibadan",
+                location: "Abiola Way, Abeokuta",
                 image: testimonial3,
             },
         },
-        // {
-        //     content:
-        //         "You guys are one of the best thing that has happened to me, you practically help set up my home... The ease of deducting the money from my account as against coming to the showroom all the time",
-        //     author: {
-        //         name: "Amy Hahn",
-        //         location: "Abiola Way, Abeokuta",
-        //         image: avatarImage4,
-        //     },
-        // },
     ],
 ];
 
