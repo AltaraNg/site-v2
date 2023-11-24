@@ -1,11 +1,14 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 import { Container } from "@/components/Container";
-import avatarImage1 from "@/images/avatars/avatar-1.png";
-import avatarImage2 from "@/images/avatars/avatar-2.png";
-import avatarImage3 from "@/images/avatars/avatar-3.png";
-import avatarImage4 from "@/images/avatars/avatar-4.png";
-import avatarImage5 from "@/images/avatars/avatar-5.png";
+// import avatarImage1 from "@/images/avatars/avatar-1.png";
+// import avatarImage2 from "@/images/avatars/avatar-2.png";
+// import avatarImage3 from "@/images/avatars/avatar-3.png";
+// import avatarImage4 from "@/images/avatars/avatar-4.png";
+// import avatarImage5 from "@/images/avatars/avatar-5.png";
+import testimonial1 from "@/images/avatars/testimonial-1.png";
+import testimonial2 from "@/images/avatars/testimonial-2.png";
+import testimonial3 from "@/images/avatars/testimonial-3.png";
 
 const testimonials = [
     [
@@ -13,58 +16,57 @@ const testimonials = [
             content:
                 "Altara came through for me when I needed it most. Their loan process was seamless, and the terms were fair. I'm now on the path to achieving my financial goals thanks to Altara's support!",
             author: {
-                name: "John",
+                name: "Aminat Olayemi",
                 location: "Challenge, Ibadan",
-                image: avatarImage1,
+                image: testimonial1,
             },
         },
-        {
-            content:
-                "As a small business owner, Altara's Buy Now Pay Later option has been a game-changer. My customers love the flexibility, and my sales have seen a significant boost. It's a win-win!",
-            author: {
-                name: "Oluwaseun",
-                location: "Apata, Ibadan",
-                image: avatarImage4,
-            },
-        },
+        // {
+        //     content:
+        //         "As a small business owner, Altara's Buy Now Pay Later option has been a game-changer. My customers love the flexibility, and my sales have seen a significant boost. It's a win-win!",
+        //     author: {
+        //         name: "Amy Hahn",
+        //         location: "Apata, Ibadan",
+        //     },
+        // },
     ],
     [
         {
             content:
                 "Altara has been my go-to for financial solutions. Their loans helped me expand my business, and their Buy Now Pay Later feature has elevated my customer experience. I couldn't be happier with the results.",
             author: {
-                name: "Ikechukwu",
+                name: "Usman Abdullahi",
                 location: "Taiwo, Ilorin",
-                image: avatarImage5,
+                image: testimonial2,
             },
         },
-        {
-            content:
-                "What sets Altara apart is their transparency. No hidden fees or surprises. They explained everything clearly, and I felt confident in their services. I highly",
-            author: {
-                name: "Aina Alao",
-                location: "Challenge, Ibadan",
-                image: avatarImage2,
-            },
-        },
+        // {
+        //     content:
+        //         "What sets Altara apart is their transparency. No hidden fees or surprises. They explained everything clearly, and I felt confident in their services. I highly",
+        //     author: {
+        //         name: "Erin Powlowski",
+        //         location: "Challenge, Ibadan",
+        //         image: avatarImage2,
+        //     },
+        // },
     ],
     [
-        {
-            content:
-                "The Altara team treated me like family. They took the time to understand my needs and provided a loan solution that fit perfectly. I felt supported every step of the way.",
-            author: {
-                name: "Dotun Ogunlade",
-                location: "Dugbe, Ibadan",
-                image: avatarImage3,
-            },
-        },
+        // {
+        //     content:
+        //         "The Altara team treated me like family. They took the time to understand my needs and provided a loan solution that fit perfectly. I felt supported every step of the way.",
+        //     author: {
+        //         name: "Adepoju Sukurat",
+        //         location: "Dugbe, Ibadan",
+        //         image: testimonial3,
+        //     },
+        // },
         {
             content:
                 "You guys are one of the best thing that has happened to me, you practically help set up my home... The ease of deducting the money from my account as against coming to the showroom all the time",
             author: {
-                name: "Dr Oluwaseun",
+                name: "Adepoju Sukurat",
                 location: "Abiola Way, Abeokuta",
-                image: avatarImage4,
+                image: testimonial3,
             },
         },
     ],
@@ -103,13 +105,15 @@ export function Testimonials() {
                                                     <div className="text-sm text-slate-500">{testimonial.author.location}</div>
                                                 </div>
                                                 <div className="overflow-hidden rounded-full bg-slate-50">
-                                                    {/* <Image
-                                                        className="h-14 w-14 object-cover"
-                                                        src={testimonial.author.image}
-                                                        alt=""
-                                                        width={56}
-                                                        height={56}
-                                                    /> */}
+                                                    {testimonial.author.image && (
+                                                        <Image
+                                                            className="h-14 w-14 object-cover"
+                                                            src={testimonial.author.image}
+                                                            alt="Profile image"
+                                                            width={56}
+                                                            height={56}
+                                                        />
+                                                    )}
                                                 </div>
                                             </figcaption>
                                         </figure>

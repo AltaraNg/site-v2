@@ -43,7 +43,7 @@ export default function Alert({ type = "alert", delay, children, onClose }) {
     };
 
     return (
-        <div className={cn("border-l-4 z-50 absolute p-4 min-w-[20vw] top-4 right-4", color(), { hidden: !visible })}>
+        <div className={cn("border-l-4 z-50 fixed p-4 min-w-[20vw] top-4 right-4", color(), { hidden: !visible })}>
             <div className="flex items-center">
                 <div className="flex-shrink-0">
                     {type === "alert" && <ExclamationTriangleIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />}

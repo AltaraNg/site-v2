@@ -14,6 +14,7 @@ export default function Contact() {
     const {
         register,
         handleSubmit,
+        reset,
         formState: { errors },
     } = useForm();
     const onSubmit = async (data) => {
@@ -37,6 +38,7 @@ export default function Contact() {
                 return;
             }
             setSuccessMessage("Message sent successfully, we will get back to you shortly");
+            reset();
         } catch (error) {
             setErrorMessage("An error occurred, please contact the administrator");
             setLoading(false);
