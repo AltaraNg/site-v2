@@ -7,6 +7,8 @@ import { Pricing } from "@/components/Pricing";
 import { PrimaryFeatures } from "@/components/PrimaryFeatures";
 import { Download } from "@/components/Download";
 import { Testimonials } from "@/components/Testimonials";
+import { WhoWeAre } from "@/components/WhoWeAre";
+import { CollectionInfo } from "@/components/CollectionInfo";
 
 export default function Home() {
     return (
@@ -14,11 +16,13 @@ export default function Home() {
             <Header />
             <main>
                 <Hero />
-                <PrimaryFeatures />
-                <Download />
-                <CallToAction />
+                <WhoWeAre />
+                {/* <PrimaryFeatures /> */}
+                {/* <Download /> */}
+                <CollectionInfo />
+                {/* <CallToAction /> */}
                 <Testimonials />
-                <Pricing />
+                {/* <Pricing /> */}
                 <Faqs />
             </main>
             <Footer />
