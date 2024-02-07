@@ -13,15 +13,15 @@ const faqs = [
             question: "What type of customers do Altara serve?",
             answer: "Our satisfied customers Include Fintechs and Microfinance banks",
         },
-        {
-            question: "Can I repay my loan early without any penalties?",
-            answer: "Yes, you can repay your loan early with Altara without incurring any penalties. We believe in providing you with flexibility and control over your financial commitments.",
-        },
+        // {
+        //     question: "Can I repay my loan early without any penalties?",
+        //     answer: "Yes, you can repay your loan early with Altara without incurring any penalties. We believe in providing you with flexibility and control over your financial commitments.",
+        // },
     ],
     [
         {
             question: "Where is Altara Located?",
-            answer: "We currently have several branches across Oyo and Kwara including major cities such as Ibadan, Ogbomosho & Ilorin. We are growing quickly and expanding to more communities near you.",
+            answer: "We have our head office at 46 Raymond Njoku, Ikoyi, Lagos, Nigeria. We currently have several branches across Oyo and Kwara including major cities such as Ibadan, Ogbomosho & Ilorin. We are growing quickly and expanding to more communities near you",
         },
         // {
         //     question: "How long does it take to get approved for a loan?",
@@ -29,11 +29,10 @@ const faqs = [
         // },
     ],
     [
-        {
-            question: "Are there restrictions on what I can buy or the amount I can loan?",
-            answer: "We have calculators and approval criteria tailored to suit individual's earning capacity.",
-        },
-       
+        // {
+        //     question: "Are there restrictions on what I can buy or the amount I can loan?",
+        //     answer: "We have calculators and approval criteria tailored to suit individual's earning capacity.",
+        // },
     ],
 ];
 

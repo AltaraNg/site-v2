@@ -4,10 +4,10 @@
 // import { Button } from "@/components/Button";
 // import app from "@/images/app.jpeg";
 const stats = [
-    { label: "Formal employees are within our coverage", value: "Salaried Workers" },
-    { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
-    { label: "We cater for big businesses too", value: "Medium sized enterprises" },
-    { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
+    // { label: "Formal employees are within our coverage", value: "Salaried Workers" },
+    // { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
+    // { label: "We cater for big businesses too", value: "Medium sized enterprises" },
+    // { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
 ];
 
 export function CollectionInfo() {
@@ -18,7 +18,7 @@ export function CollectionInfo() {
                     <h2 className="text-3xl mt-6 font-semibold text-slate-900 sm:text-4xl font-display">Our Service Coverage</h2>
                     <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                         <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                            <p className="text-xl leading-8 text-gray-600">Our services cover, collections and recoveries:</p>
+                            <p className="text-xl leading-8 text-gray-600">Our services cover collections and recoveries:</p>
                             <div className="mt-10 max-w-xl text-xl leading-7 text-gray-700">
                                 <p>
                                     We have built the capabilities to collect on a plethora of borrower types, leveraging technology and people-driven

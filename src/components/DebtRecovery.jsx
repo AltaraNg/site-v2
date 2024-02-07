@@ -74,7 +74,7 @@ export function DebtRecovery () {
                 </div>
                 <div className="mx-auto max-w-2xl lg:mx-0 mt-8">
                     <h2 className="text-xl font-semibold text-slate-900 sm:text-4xl font-display">PARTNERS</h2>
-                    <p className="mt-2 text-lg leading-8 text-gray-600">Includes Fintech and Microfinance banks</p>
+                    <p className="mt-2 text-lg leading-8 text-gray-600">Fintech and Microfinance banks</p>
                 </div>
 
                 <div className="mx-auto max-w-2xl lg:mx-0 mt-8">
