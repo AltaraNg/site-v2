@@ -5,13 +5,17 @@ import backgroundImage from "@/images/background-faqs.jpg";
 
 const faqs = [
     [
-        {
-            question: "How do I go about getting a product?",
-            answer: "You can fill in the enquiry form online and an agent will reach out to you. Next steps will involve getting your KYC documents, registering on our system speedy verification and you can pick up the product at our closest branch near you.",
-        },
+        // {
+        //     question: "How do I go about getting a product?",
+        //     answer: "You can fill in the enquiry form online and an agent will reach out to you. Next steps will involve getting your KYC documents, registering on our system speedy verification and you can pick up the product at our closest branch near you.",
+        // },
         {
             question: "What type of customers do Altara serve?",
-            answer: "We serve customers who are salaried and non salaried, above 18, male and female who live in any of our operating communities",
+            answer: "Our satisfied customers Include Fintechs and Microfinance banks",
+        },
+        {
+            question: "Can I repay my loan early without any penalties?",
+            answer: "Yes, you can repay your loan early with Altara without incurring any penalties. We believe in providing you with flexibility and control over your financial commitments.",
         },
     ],
     [
@@ -19,20 +23,17 @@ const faqs = [
             question: "Where is Altara Located?",
             answer: "We currently have several branches across Oyo and Kwara including major cities such as Ibadan, Ogbomosho & Ilorin. We are growing quickly and expanding to more communities near you.",
         },
-        {
-            question: "How long does it take to get approved for a loan?",
-            answer: "The approval process varies depending on the type of loan and the completeness of your application. In many cases, approvals can be provided within 24-48 hours.",
-        },
+        // {
+        //     question: "How long does it take to get approved for a loan?",
+        //     answer: "The approval process varies depending on the type of loan and the completeness of your application. In many cases, approvals can be provided within 24-48 hours.",
+        // },
     ],
     [
         {
             question: "Are there restrictions on what I can buy or the amount I can loan?",
             answer: "We have calculators and approval criteria tailored to suit individual's earning capacity.",
         },
-        {
-            question: "Can I repay my loan early without any penalties?",
-            answer: "Yes, you can repay your loan early with Altara without incurring any penalties. We believe in providing you with flexibility and control over your financial commitments.",
-        },
+       
     ],
 ];
 

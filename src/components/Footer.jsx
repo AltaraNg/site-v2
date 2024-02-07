@@ -6,10 +6,12 @@ const navigation = {
         { name: "Testimonials", href: "/#testimonials" },
         { name: "Offers", href: "/#offers" },
         { name: "Impacts", href: "/impact" },
+
     ],
     company: [
         { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" },
+        { name: "Other Services", href: "/other-services" },
     ],
     social: [
         {

@@ -100,7 +100,7 @@ export function Header() {
                         {/* <div className="hidden md:block">
                             <NavLink href="/login">Sign in</NavLink>
                         </div> */}
-                        <Button href="/app-download" color="blue">
+                        <Button href="/contact" color="blue">
                             <span className="font-display">
                                 Get started <span className="hidden lg:inline">today</span>
                             </span>

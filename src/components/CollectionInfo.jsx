@@ -23,7 +23,7 @@ export function CollectionInfo() {
                                 <p>
                                     We have built the capabilities to collect on a plethora of borrower types, leveraging technology and people-driven
                                     processes to generate positive repayment outcomes. Unlike most other providers in the market, we have strong
-                                    operations in South-West Nigeria (Oyo, Ogun, Kwara).
+                                    operations in South-West Nigeria (Oyo, Ogun, Kwara) and still expanding.
                                 </p>
                             </div>
                         </div>

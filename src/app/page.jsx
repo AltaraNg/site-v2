@@ -9,6 +9,7 @@ import { Download } from "@/components/Download";
 import { Testimonials } from "@/components/Testimonials";
 import { WhoWeAre } from "@/components/WhoWeAre";
 import { CollectionInfo } from "@/components/CollectionInfo";
+import DebtRecovery from "@/components/DebtRecovery";
 
 export default function Home() {
     return (
@@ -21,7 +22,8 @@ export default function Home() {
                 {/* <Download /> */}
                 <CollectionInfo />
                 {/* <CallToAction /> */}
-                <Testimonials />
+                <DebtRecovery />
+                {/* <Testimonials /> */}
                 {/* <Pricing /> */}
                 <Faqs />
             </main>
