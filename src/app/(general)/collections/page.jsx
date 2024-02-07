@@ -6,24 +6,7 @@ const stats = [
     { label: "We cater for big businesses too", value: "Medium sized enterprises" },
     { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
 ];
-const values = [
-    {
-        name: "Integrity",
-        description: "We conduct our business with transparency, honesty, and a commitment to the highest ethical standards.",
-    },
-    {
-        name: "Empathy",
-        description: "We understand the diverse financial needs of our customers and approach each situation with empathy and understanding.",
-    },
-    {
-        name: "Innovation:",
-        description: "We continuously seek innovative ways to improve our services and adapt to the evolving needs of our clients.",
-    },
-    {
-        name: "Community",
-        description: "We believe in giving back and actively participate in initiatives that support the communities we serve.",
-    },
-];
+
 
 export default function Collections() {
     return (

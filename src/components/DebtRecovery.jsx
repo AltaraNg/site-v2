@@ -1,4 +1,4 @@
-export default function () {
+export function DebtRecovery () {
     return (
         <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">

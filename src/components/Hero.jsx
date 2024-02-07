@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
-import { Calculator } from "@/components/Calculator";
+// import { Calculator } from "@/components/Calculator";
 
 export function Hero() {
     return (

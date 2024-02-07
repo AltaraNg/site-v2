@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
-import { Button } from "@/components/Button";
-import app from "@/images/app.jpeg";
+// import Image from "next/image";
+// import { Button } from "@/components/Button";
+// import app from "@/images/app.jpeg";
 const stats = [
     { label: "Formal employees are within our coverage", value: "Salaried Workers" },
     { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
