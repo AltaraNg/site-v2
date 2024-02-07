@@ -130,7 +130,7 @@ export default function About() {
                                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
                                     <p>
                                         We are on a mission to provide inclusive financial services that bridge gaps and create opportunities for
-                                        growth. By offering a diverse range of loans and flexible Buy Now Pay Later options, we aim to transform how
+                                        growth. By offering collections and recovery services to businesses and offering diverse range of loans and flexible Buy Now Pay Later options, we aim to transform how
                                         individuals and businesses manage their finances.
                                     </p>
                                 </div>
