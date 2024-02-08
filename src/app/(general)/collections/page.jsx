@@ -125,7 +125,7 @@ export default function Collections() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="lg:flex lg:flex-auto lg:justify-center">
+                            {/* <div className="lg:flex lg:flex-auto lg:justify-center">
                                 <dl className="w-64 space-y-8 xl:w-80">
                                     {stats.map((stat) => (
                                         <div key={stat.label} className="flex flex-col-reverse gap-y-4">
@@ -134,7 +134,7 @@ export default function Collections() {
                                         </div>
                                     ))}
                                 </dl>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

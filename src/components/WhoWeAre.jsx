@@ -67,7 +67,7 @@ export function WhoWeAre() {
                 <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">Who We Are?</h2>
                     <p className="mt-6 text-lg tracking-tight text-blue-100">
-                        We strive to make operating easier by offering what we do best, collections and recovery as a service. Over the past &lt; 5
+                        We strive to make our clients' operations easier by offering what we do best: collections and recovery as a service. Over the past &lt; 5
                         years, we have built great expertise in the repayments side of the business. First, we are building the capabilities on our
                         loan book, now offering it as a service to other lenders
                     </p>
