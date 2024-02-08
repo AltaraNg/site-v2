@@ -10,7 +10,7 @@ const faqs = [
         //     answer: "You can fill in the enquiry form online and an agent will reach out to you. Next steps will involve getting your KYC documents, registering on our system speedy verification and you can pick up the product at our closest branch near you.",
         // },
         {
-            question: "What type of customers do Altara serve?",
+            question: "What type of customers does Altara serve?",
             answer: "Our satisfied customers Include Fintechs and Microfinance banks",
         },
         // {
