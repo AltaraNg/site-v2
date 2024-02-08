@@ -1,11 +1,11 @@
 import { WhoWeAre } from "@/components/WhoWeAre";
 
-const stats = [
-    { label: "Formal employees are within our coverage", value: "Salaried Workers" },
-    { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
-    { label: "We cater for big businesses too", value: "Medium sized enterprises" },
-    { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
-];
+// const stats = [
+//     { label: "Formal employees are within our coverage", value: "Salaried Workers" },
+//     { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
+//     { label: "We cater for big businesses too", value: "Medium sized enterprises" },
+//     { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
+// ];
 
 
 export default function Collections() {
