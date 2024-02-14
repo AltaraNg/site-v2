@@ -1,4 +1,4 @@
-import { Button } from "@/components/Button";
+// import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 // import { Calculator } from "@/components/Calculator";
 
@@ -32,9 +32,9 @@ export function Hero() {
                 <Button href="/app-download" variant="outline">
                     Get Our App
                 </Button> */}
-                <Button href="/collections" color={"blue"}>
+                {/* <Button href="/collections" color={"blue"}>
                     View More
-                </Button>
+                </Button> */}
             </div>
             <div className="mt-20">
                 {/* <p className="font-display text-lg font-semibold">Calculate Your Financial Journey</p> */}

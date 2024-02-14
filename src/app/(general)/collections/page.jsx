@@ -1,3 +1,4 @@
+import { CollectionInfo } from "@/components/CollectionInfo";
 import { WhoWeAre } from "@/components/WhoWeAre";
 
 // const stats = [
@@ -11,6 +12,7 @@ import { WhoWeAre } from "@/components/WhoWeAre";
 export default function Collections() {
     return (
         <div className="bg-white mx-auto max-w-7xl">
+            <CollectionInfo />
             <main className="isolate pb-16">
                 {/* Hero section */}
                 <div className="relative isolate -z-10">
