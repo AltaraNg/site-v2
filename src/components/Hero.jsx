@@ -25,17 +25,16 @@ export function Hero() {
                 seeking flexible payment options, we have tailored solutions to meet your needs.
             </p> */}
             <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 font-medium">
-            We make our partners' problems our problems.
-             <br />. We preserve a company and
-                prevent it from shutting down.<br></br> Problem: Too many recovery services, overpromise, and underdelivery.<br></br> At Altara we practice what we
-                preach.
+            We prioritize our partners' problems, saving their companies from shutting down. At Altara, we practice what we preach, avoiding the common pitfall of overpromising and underdelivering.
             </p>
             <div className="mt-12 flex justify-center gap-x-6">
                 {/* <Button href="/register">Get a Loan</Button>
                 <Button href="/app-download" variant="outline">
                     Get Our App
                 </Button> */}
-                <Button href="/collections" color={'blue'}>View More</Button>
+                <Button href="/collections" color={"blue"}>
+                    View More
+                </Button>
             </div>
             <div className="mt-20">
                 {/* <p className="font-display text-lg font-semibold">Calculate Your Financial Journey</p> */}

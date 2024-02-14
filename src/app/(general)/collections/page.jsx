@@ -46,9 +46,7 @@ export default function Collections() {
                                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                                     <h1 className="text-4xl font-semibold text-slate-900 sm:text-6xl font-display">Altara Debt Recovery</h1>
                                     <p className="relative mt-6 text-lg text-slate-700 sm:max-w-md lg:max-w-none">
-                                        At Altara, we understand the challenges of operating a credit business in Nigeria. From origination to payment
-                                        tracking, many lenders are forced to execute the entire stack of services to render credit in Nigeria,
-                                        diluting their focus, and adding unwanted distractions to their core lending operations.
+                                    At Altara, we comprehend the difficulties involved in operating a credit business in Nigeria. Many lenders are compelled to handle the entire range of services, from origination to payment tracking, in order to provide credit in Nigeria. This dilutes their focus and adds unnecessary distractions to their core lending operations.
                                     </p>
                                 </div>
                                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -111,33 +109,7 @@ export default function Collections() {
                 </div>
 
                 {/* Content section */}
-                <div className="mx-auto -mt-10 max-w-7xl px-6 sm:mt-0 lg:px-8">
-                    <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                        <h2 className="text-3xl mt-6 font-semibold text-slate-900 sm:text-4xl font-display">Our Service Coverage</h2>
-                        <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
-                            <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                                <p className="text-xl leading-8 text-gray-600">Our services cover, collections and recoveries:</p>
-                                <div className="mt-10 max-w-xl text-xl leading-7 text-gray-700">
-                                    <p>
-                                        We have built the capabilities to collect on a plethora of borrower types, leveraging technology and
-                                        people-driven processes to generate positive repayment outcomes. Unlike most other providers in the market, we
-                                        have strong operations in South-West Nigeria (Oyo, Ogun, Kwara).
-                                    </p>
-                                </div>
-                            </div>
-                            {/* <div className="lg:flex lg:flex-auto lg:justify-center">
-                                <dl className="w-64 space-y-8 xl:w-80">
-                                    {stats.map((stat) => (
-                                        <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                                            <dt className="text-base leading-7 text-gray-600 font-display">{stat.label}</dt>
-                                            <dd className="text-2xl font-semibold tracking-tight text-gray-900 font-display">{stat.value}</dd>
-                                        </div>
-                                    ))}
-                                </dl>
-                            </div> */}
-                        </div>
-                    </div>
-                </div>
+                
 
                 {/* Image section */}
                 <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
@@ -153,8 +125,7 @@ export default function Collections() {
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-xl font-semibold text-slate-900 sm:text-4xl font-display">WHY CHOOSE ALTARA?</h2>
                         <p className="mt-2 text-lg leading-8 text-gray-600">
-                            We have worked tirelessly over the years to reduce our default rate to 3% using our developed technology and collections
-                            protocol over the past few years. We have achieved 7 times better default rate than the average fintech industry
+                        We have used our developed technology and collections protocol to reduce our default rate to 3%, which is 7 times better than the average fintech industry.
                         </p>
                     </div>
                     <div className="mx-auto max-w-2xl lg:mx-0 mt-8">
