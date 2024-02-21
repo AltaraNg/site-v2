@@ -62,7 +62,7 @@ function MobileNavigation() {
                         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
                     >
                         <MobileNavLink href="#features">Features</MobileNavLink>
-                        <MobileNavLink href="/#collections">Collections</MobileNavLink>
+                        <MobileNavLink href="/collections">Collections</MobileNavLink>
 
                         <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
                         <MobileNavLink href="#offers">Offers</MobileNavLink>
