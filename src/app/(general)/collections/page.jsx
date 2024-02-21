@@ -1,30 +1,18 @@
-const stats = [
-    { label: "Transactions every 24 hours", value: "One Hundred" },
-    { label: "Finance under holding", value: "₦119 million" },
-    { label: "New customers annually", value: "11,000" },
-];
-const values = [
-    {
-        name: "Integrity",
-        description: "We conduct our business with transparency, honesty, and a commitment to the highest ethical standards.",
-    },
-    {
-        name: "Empathy",
-        description: "We understand the diverse financial needs of our customers and approach each situation with empathy and understanding.",
-    },
-    {
-        name: "Innovation:",
-        description: "We continuously seek innovative ways to improve our services and adapt to the evolving needs of our clients.",
-    },
-    {
-        name: "Community",
-        description: "We believe in giving back and actively participate in initiatives that support the communities we serve.",
-    },
-];
+import { CollectionInfo } from "@/components/CollectionInfo";
+import { WhoWeAre } from "@/components/WhoWeAre";
 
-export default function About() {
+// const stats = [
+//     { label: "Formal employees are within our coverage", value: "Salaried Workers" },
+//     { label: "Traders, contractors and other informal employees", value: "Non-salaried Workers" },
+//     { label: "We cater for big businesses too", value: "Medium sized enterprises" },
+//     { label: "Mico enterprises are not left out", value: "Small (and Micro) enterprises" },
+// ];
+
+
+export default function Collections() {
     return (
         <div className="bg-white mx-auto max-w-7xl">
+            <CollectionInfo />
             <main className="isolate pb-16">
                 {/* Hero section */}
                 <div className="relative isolate -z-10">
@@ -58,20 +46,25 @@ export default function About() {
                         <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
                             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                                    <h1 className="text-4xl font-semibold text-slate-900 sm:text-6xl font-display">
-                                        Altara Empowering Financial Futures
-                                    </h1>
+                                    <h1 className="text-4xl font-semibold text-slate-900 sm:text-6xl font-display">Altara Debt Recovery</h1>
                                     <p className="relative mt-6 text-lg text-slate-700 sm:max-w-md lg:max-w-none">
-                                        At Altara, we believe that access to financial solutions should be straightforward, empowering, and tailored
-                                        to individual needs. Established with a vision to make a positive impact on lives and communities, we have
-                                        been serving individuals and businesses across various sectors.
+                                    At Altara, we comprehend the difficulties involved in operating a credit business in Nigeria. Many lenders are compelled to handle the entire range of services, from origination to payment tracking, in order to provide credit in Nigeria. This dilutes their focus and adds unnecessary distractions to their core lending operations.
                                     </p>
                                 </div>
                                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                                    <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                                    <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                                         <div className="relative">
                                             <img
-                                                src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                                                src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
+                                                alt=""
+                                                className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                                            />
+                                            <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                                        </div>
+
+                                        <div className="relative">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
                                                 alt=""
                                                 className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                             />
@@ -87,27 +80,20 @@ export default function About() {
                                             />
                                             <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                                         </div>
+
                                         <div className="relative">
                                             <img
-                                                src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                                                src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                                                 alt=""
                                                 className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                             />
                                             <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                                         </div>
                                     </div>
-                                    <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                                    <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                                         <div className="relative">
                                             <img
-                                                src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                                                alt=""
-                                                className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                            />
-                                            <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                                        </div>
-                                        <div className="relative">
-                                            <img
-                                                src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                                                src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                                                 alt=""
                                                 className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                             />
@@ -120,34 +106,12 @@ export default function About() {
                     </div>
                 </div>
 
-                {/* Content section */}
                 <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
-                    <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                        <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl font-display">Our mission</h2>
-                        <div className="mt-2 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
-                            <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                                <p className="text-xl leading-8 text-gray-600">Empowerment Through Financial Inclusion</p>
-                                <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                                    <p>
-                                        We are on a mission to provide inclusive financial services that bridge gaps and create opportunities for
-                                        growth. By offering collections and recovery services to businesses and offering diverse range of loans and flexible Buy Now Pay Later options, we aim to transform how
-                                        individuals and businesses manage their finances.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="lg:flex lg:flex-auto lg:justify-center">
-                                <dl className="w-64 space-y-8 xl:w-80">
-                                    {stats.map((stat) => (
-                                        <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                                            <dt className="text-base leading-7 text-gray-600 font-display">{stat.label}</dt>
-                                            <dd className="text-5xl font-semibold tracking-tight text-gray-900 font-display">{stat.value}</dd>
-                                        </div>
-                                    ))}
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
+                    <WhoWeAre />
                 </div>
+
+                {/* Content section */}
+                
 
                 {/* Image section */}
                 <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
@@ -161,17 +125,22 @@ export default function About() {
                 {/* Values section */}
                 <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl font-display">Our values</h2>
-                        <p className="mt-2 text-lg leading-8 text-gray-600">Guiding Principles That Define Us</p>
+                        <h2 className="text-xl font-semibold text-slate-900 sm:text-4xl font-display">WHY CHOOSE ALTARA?</h2>
+                        <p className="mt-2 text-lg leading-8 text-gray-600">
+                        We have used our developed technology and collections protocol to reduce our default rate to 3%, which is 7 times better than the average fintech industry.
+                        </p>
                     </div>
-                    <dl className="mt-16 grid grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 mx-auto max-w-2xl lg:max-w-7xl lg:mx-0">
-                        {values.map((value) => (
-                            <div key={value.name}>
-                                <dt className="font-semibold text-gray-900">{value.name}</dt>
-                                <dd className="mt-1 text-gray-600">{value.description}</dd>
-                            </div>
-                        ))}
-                    </dl>
+                    <div className="mx-auto max-w-2xl lg:mx-0 mt-8">
+                        <h2 className="text-xl font-semibold text-slate-900 sm:text-4xl font-display">PARTNERS</h2>
+                        <p className="mt-2 text-lg leading-8 text-gray-600">Includes Fintech and Microfinance banks</p>
+                    </div>
+
+                    <div className="mx-auto max-w-2xl lg:mx-0 mt-8">
+                        <h2 className="text-xl font-semibold text-slate-900 sm:text-4xl font-display">Fee?</h2>
+                        <p className="mt-2 text-lg leading-8 text-gray-600">
+                            We operate on <em>NO COLLECTIONS NO FEE</em> principle.
+                        </p>
+                    </div>
                 </div>
             </main>
         </div>

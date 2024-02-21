@@ -62,6 +62,8 @@ function MobileNavigation() {
                         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
                     >
                         <MobileNavLink href="#features">Features</MobileNavLink>
+                        <MobileNavLink href="/collections">Collections</MobileNavLink>
+
                         <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
                         <MobileNavLink href="#offers">Offers</MobileNavLink>
                         <MobileNavLink href="/impact">Impacts</MobileNavLink>
@@ -88,6 +90,7 @@ export function Header() {
                         </Link>
                         <div className="hidden md:flex md:gap-x-6 font-medium">
                             <NavLink href="/#features">Features</NavLink>
+                            <NavLink href="/collections">Collections</NavLink>
                             <NavLink href="/#testimonials">Testimonials</NavLink>
                             <NavLink href="/#offers">Offers</NavLink>
                             <NavLink href="/impact">Impacts</NavLink>
@@ -99,7 +102,7 @@ export function Header() {
                         {/* <div className="hidden md:block">
                             <NavLink href="/login">Sign in</NavLink>
                         </div> */}
-                        <Button href="/app-download" color="blue">
+                        <Button href="/contact" color="blue">
                             <span className="font-display">
                                 Get started <span className="hidden lg:inline">today</span>
                             </span>

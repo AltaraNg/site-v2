@@ -6,6 +6,7 @@ const navigation = {
         { name: "Testimonials", href: "/#testimonials" },
         { name: "Offers", href: "/#offers" },
         { name: "Impacts", href: "/impact" },
+
     ],
     company: [
         { name: "About", href: "/about" },
@@ -58,7 +59,7 @@ export function Footer() {
                     <div className="space-y-8">
                         <p className="text-4xl font-semibold font-display">Altara</p>
                         <p className="text-sm leading-6 text-blue-100">
-                            A leading technology driven platform that enables pay later for multiple services
+                        A leading  technology driven platform that helps individuals and businesses enhance liquidity.
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
