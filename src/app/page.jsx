@@ -9,8 +9,11 @@ import { Download } from "@/components/Download";
 import { Testimonials } from "@/components/Testimonials";
 // import { WhoWeAre } from "@/components/WhoWeAre";
 // import { CollectionInfo } from "@/components/CollectionInfo";
-// import { DebtRecovery } from "@/components/DebtRecovery";
 import { Hero2 } from "@/components/Hero2";
+import { Services } from "@/components/Services";
+import { DebtRecoveryDetail } from "@/components/DebtRecoveryDetail";
+import { ContactTracing } from "@/components/ContactTracing";
+import { PortfolioAnalysis } from "@/components/PortfolioAnalysis";
 
 export default function Home() {
     return (
@@ -22,11 +25,13 @@ export default function Home() {
                 <PrimaryFeatures />
                 {/* <CollectionInfo /> */}
 
-                <Download />
-                <CallToAction />
-                {/* <DebtRecovery /> */}
+                <Services />
+                {/* <CallToAction /> */}
+                <DebtRecoveryDetail />
+                <ContactTracing />
+                <PortfolioAnalysis />
                 <Testimonials />
-                <Pricing />
+                {/* <Pricing /> */}
                 <Faqs />
             </main>
             <Footer />
