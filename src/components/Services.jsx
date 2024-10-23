@@ -1,9 +1,8 @@
 "use client";
 
-import { BanknotesIcon, CurrencyDollarIcon, HomeIcon, PlusCircleIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { BanknotesIcon, HomeIcon, PlusIcon } from "@heroicons/react/24/outline";
 import app from "@/images/bank_deal.png";
 import Image from "next/image";
-
 
 export function Services() {
     return (
