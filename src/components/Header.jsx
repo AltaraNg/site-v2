@@ -65,7 +65,6 @@ function MobileNavigation() {
                         <MobileNavLink href="/collections">Collections</MobileNavLink>
 
                         <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-                        <MobileNavLink href="#offers">Offers</MobileNavLink>
                         <MobileNavLink href="/impact">Impacts</MobileNavLink>
                         <MobileNavLink href="/about">About Us</MobileNavLink>
                         <MobileNavLink href="/contact">Contact Us</MobileNavLink>
@@ -92,7 +91,6 @@ export function Header() {
                             <NavLink href="/#features">Features</NavLink>
                             <NavLink href="/collections">Collections</NavLink>
                             <NavLink href="/#testimonials">Testimonials</NavLink>
-                            <NavLink href="/#offers">Offers</NavLink>
                             <NavLink href="/impact">Impacts</NavLink>
                             <NavLink href="/about">About Us</NavLink>
                             <NavLink href="/contact">Contact Us</NavLink>
