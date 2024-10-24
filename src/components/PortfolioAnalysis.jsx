@@ -4,7 +4,7 @@ import rebuild from "@/images/analysis.png";
 
 export function PortfolioAnalysis() {
     return (
-        <div className="overflow-hidden pb-5 pt-20 sm:pb-10 sm:pt-32 relative">
+        <div className="overflow-hidden pb-5 pt-20 sm:pb-10 sm:pt-32 relative px-20">
             <div className="flex justify-center items-center gap-10">
                 <div className="text-2xl font-mono text-amber-600 font-bold">Portfolio Analytics as a Service</div>
                 <div>
@@ -17,9 +17,9 @@ export function PortfolioAnalysis() {
                     customer re-engaging and repaying.
                 </h3>
                 <ul className="w-9/12 mx-auto">
-                    <li className="list-item list-['=>']"> Allows for better utilization of internal resources</li>
-                    <li className="list-item list-['=>']"> Maximized capital</li>
-                    <li className="list-item list-['=>']"> Instrumental in assessing the quality of internal recovery team</li>
+                    <li className="list-item list-['=>'] px-5"> Allows for better utilization of internal resources</li>
+                    <li className="list-item list-['=>'] px-5"> Maximized capital</li>
+                    <li className="list-item list-['=>'] px-5"> Instrumental in assessing the quality of internal recovery team</li>
                 </ul>
             </div>
 
