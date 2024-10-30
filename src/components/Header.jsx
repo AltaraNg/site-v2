@@ -61,11 +61,8 @@ function MobileNavigation() {
                         as="div"
                         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
                     >
-                        <MobileNavLink href="#features">Features</MobileNavLink>
                         <MobileNavLink href="/collections">Collections</MobileNavLink>
 
-                        <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-                        <MobileNavLink href="/impact">Impacts</MobileNavLink>
                         <MobileNavLink href="/about">About Us</MobileNavLink>
                         <MobileNavLink href="/contact">Contact Us</MobileNavLink>
                         <hr className="m-2 border-slate-300/40" />
@@ -83,15 +80,12 @@ export function Header() {
             <Container>
                 <nav className="relative z-50 flex justify-between">
                     <div className="flex items-center md:gap-x-12">
-                        <Link href="/#" aria-label="Home" className="flex font-display items-center text-2xl gap-2">
+                        <Link href="/" aria-label="Home" className="flex font-display items-center text-2xl gap-2">
                             <Logo className="" type="dark" />
                             Altara
                         </Link>
                         <div className="hidden md:flex md:gap-x-6 font-medium">
-                            <NavLink href="/#features">Features</NavLink>
                             <NavLink href="/collections">Collections</NavLink>
-                            <NavLink href="/#testimonials">Testimonials</NavLink>
-                            <NavLink href="/impact">Impacts</NavLink>
                             <NavLink href="/about">About Us</NavLink>
                             <NavLink href="/contact">Contact Us</NavLink>
                         </div>
