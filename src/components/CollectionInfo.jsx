@@ -22,7 +22,10 @@ export function CollectionInfo() {
                         <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                             <div className="mt-10 max-w-xl text-xl leading-7 text-gray-700">
                                 <p>
-                                We have developed the ability to collect from a wide range of borrowers by using a combination of technology and manual processes to ensure successful repayment. Our operational reach extends to the South-Western region of Nigeria, including Oyo, Ogun, and Kwara, and we are continuously expanding. Unlike many other providers in the market, we have a strong presence in this region.
+                                    We have developed the ability to collect from a wide range of borrowers by using a combination of technology and
+                                    manual processes to ensure successful repayment. Our operational reach extends to the South-Western region of
+                                    Nigeria, including Oyo, Ogun, Lagos and Kwara, and we are continuously expanding. Unlike many other providers in
+                                    the market, we have a strong presence in this region.
                                 </p>
                             </div>
                         </div>
