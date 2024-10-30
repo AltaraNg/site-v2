@@ -6,10 +6,10 @@ import "@/styles/tailwind.css";
 export const metadata = {
     title: {
         template: "%s - Altara",
-        default: "Altara - Unlock Financial Freedom - Loan",
+        default: "Altara - Unlock Financial Freedom - Collections",
     },
     description:
-        "Altara: Empowering Financial Futures. Explore our diverse range of loans and flexible Buy Now Pay Later options. Serving individuals and businesses in the formal and informal sectors, Altara provides inclusive financial solutions with transparency and integrity.",
+        "Altara: Empowering Financial Futures. Explore our diverse range of collections and recovery services. Serving individuals and businesses in the formal and informal sectors, Altara provides inclusive financial solutions with transparency and integrity.",
 };
 
 const inter = Inter({
