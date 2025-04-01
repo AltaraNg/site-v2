@@ -1,4 +1,6 @@
 import Link from "next/link";
+import TrustMark from "@/images/trust_mark.jpg";
+import Image from "next/image";
 
 const navigation = {
     links: [
@@ -6,11 +8,11 @@ const navigation = {
         { name: "Testimonials", href: "/#testimonials" },
         { name: "Offers", href: "/#offers" },
         { name: "Impacts", href: "/impact" },
-
     ],
     company: [
         { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" },
+        { name: "Privacy Policy", href: "/privacy-policy" },
     ],
     social: [
         {
@@ -55,11 +57,11 @@ export function Footer() {
     return (
         <footer className="bg-blue-600 text-white" aria-labelledby="footer-heading">
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-                <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+                <div className="xl:grid xl:grid-cols-3 xl:gap-20">
                     <div className="space-y-8">
                         <p className="text-4xl font-semibold font-display">Altara</p>
                         <p className="text-sm leading-6 text-blue-100">
-                        A leading  technology driven platform that helps individuals and businesses enhance liquidity.
+                            A leading technology driven platform that helps individuals and businesses enhance liquidity.
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
@@ -70,8 +72,7 @@ export function Footer() {
                             ))}
                         </div>
                     </div>
-                    <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-                        <div></div>
+                    <div className="mt-16 grid grid-cols-1 gap-8 xl:col-span-1 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="font-semibold leading-6 text-white font-display">Company</h3>
@@ -97,6 +98,12 @@ export function Footer() {
                                     ))}
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-16 grid grid-cols-1 xl:col-span-1 xl:mt-0">
+                        <div>
+                            <Image src={TrustMark} alt="image" height={300} className="" />
                         </div>
                     </div>
                 </div>
