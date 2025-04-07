@@ -15,6 +15,7 @@ import { WhoWeAre } from "@/components/WhoWeAre";
 // import { ContactTracing } from "@/components/ContactTracing";
 // import { PortfolioAnalysis } from "@/components/PortfolioAnalysis";
 import { CollectionInfo } from "@/components/CollectionInfo";
+import DisclaimerModal from "@/components/DisclaimerModal";
 
 export default function Home() {
     return (
@@ -105,6 +106,7 @@ export default function Home() {
                 </div>
             </main>
             <Footer />
+            <DisclaimerModal />
         </>
     );
 }
