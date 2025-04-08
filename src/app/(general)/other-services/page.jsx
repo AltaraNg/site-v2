@@ -1,5 +1,4 @@
 import { CallToAction } from "@/components/CallToAction";
-import { Download } from "@/components/Download";
 import { Faqs } from "@/components/Faqs";
 import { Hero2 } from "@/components/Hero2";
 import { Pricing } from "@/components/Pricing";
@@ -13,7 +12,6 @@ export default function OtherServices() {
                 <Hero2 />
                 {/* <WhoWeAre /> */}
                 <PrimaryFeatures />
-                <Download />
                 {/* <CollectionInfo /> */}
                 <CallToAction />
                 {/* <DebtRecovery /> */}

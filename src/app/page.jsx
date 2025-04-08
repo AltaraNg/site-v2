@@ -5,7 +5,6 @@ import { Header } from "@/components/Header";
 // import { Hero } from "@/components/Hero";
 // import { Pricing } from "@/components/Pricing";
 // import { PrimaryFeatures } from "@/components/PrimaryFeatures";
-// import { Download } from "@/components/Download";
 // import { Testimonials } from "@/components/Testimonials";
 import { WhoWeAre } from "@/components/WhoWeAre";
 // import { CollectionInfo } from "@/components/CollectionInfo";
