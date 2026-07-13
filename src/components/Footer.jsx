@@ -1,5 +1,6 @@
 import Link from "next/link";
-import TrustMark from "@/images/trust_mark.jpg";
+import TrustMark2 from "@/images/trust_mark_2.jpg";
+import RegCert from "@/images/reg_cert.jpg";
 import Image from "next/image";
 
 const navigation = {
@@ -101,9 +102,12 @@ export function Footer() {
                         </div>
                     </div>
 
-                    <div className="mt-16 grid grid-cols-1 xl:col-span-1 xl:mt-0">
+                    <div className="mt-16 grid grid-cols-1 gap-2 xl:col-span-1 xl:mt-0">
                         <div>
-                            <Image src={TrustMark} alt="image" height={300} className="" />
+                            <Image src={TrustMark2} alt="image" height={300} width={400} className="" />
+                        </div>
+                        <div>
+                            <Image src={RegCert} alt="image" height={300} width={400} className="" />
                         </div>
                     </div>
                 </div>
